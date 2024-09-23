@@ -1,0 +1,57 @@
+usepackage{geometry}
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{BIO DATA}}
+\fancyhead[R]{Akash Halder}
+
+\begin{document}
+
+\begin{center}
+    \includegraphics[width=0.2\textwidth]{my.jpg} \\[1em]
+    \textbf{\LARGE Akash Halder} \\[0.5em]
+    Father’s Name: Amit Halder \\[0.5em]
+    Phone Number: 8910860687 \\ 
+    Email: \texttt{akashhalder07058@gmail.com} \\ 
+    Address: Nabapally barasat khudiram basu nagar \\ 
+    Pin: 700126(W.B)\\
+    Distt: North 24 Parganas\\
+    Date of birth: 30-12-2002\\
+    Nationality: Indian\\
+    Religion: Hindu\\
+    
+\end{center}
+
+\section*{Education}
+\begin{tabular}{rl}
+    \textbf{ Last Qualification:} & H.S \\
+    \textbf{Board/council/University:} & W.B.C.H.S.E \\
+    \textbf{Year of Passing:} & 2021 \\
+\end{tabular}
+
+\section*{Skills}
+\begin{itemize}[left=0pt]
+    \item Basic computer knowledge
+    \item Web Designer
+\end{itemize}
+
+\section*{Experience}
+\begin{tabular}{rl}
+    \textbf NO
+\end{tabular}
+
+\section*{Certifications}
+\begin{itemize}[left=0pt]
+    \item Certification 1
+    \item Certification 2
+\end{itemize}
+
+\section*{ABOUT}
+I HERA DECLARED THAT THE STATEMENT MADE BY ME ARE CORRECT TO BEST OF MY KNOWLEDGE AND BLIEF
+
+\end{document}
